@@ -22,6 +22,7 @@
     transition: 0.2s ease-in-out;
     transition-property: all;
     text-align: center;
+    cursor: pointer;
 }
 .cont__content span{
     position: relative;

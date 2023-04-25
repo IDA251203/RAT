@@ -30,15 +30,15 @@ function Navbar(){
          </Head>
 
             <div className={styles.cont__content1}>Raqamli va Axborot texnologiyalari</div>
-         <a to='main' onClick={() => scrollBy(0, 0)}>
+         <Link href='/'>
             <div className={styles.cont__content}><span><HomeIcon/></span>Kirish</div>
-         </a>
-         <a to='mavzular' onClick={() => scrollBy(850, 0)}>
+         </Link>
+         <Link href='/mavzu'>
             <div className={styles.cont__content}><span><ArtTrackIcon/></span>Mavzular</div>
-         </a>
-         <a to='taqdimot' onClick={() => scrollBy(1750, 0)}>
+         </Link>
+         <Link href='/taqdimot'>
             <div className={styles.cont__content}><span><AppRegistrationIcon/></span>Taqdimot</div>
-         </a>
+         </Link>
          <a to='video' onClick={() => scrollBy(2600, 0)}>
             <div className={styles.cont__content}><span><OndemandVideoIcon/></span>Video darslar</div>
          </a>
@@ -54,13 +54,6 @@ function Navbar(){
             {/* <p className={styles.cont__}>Tillayev Azamat Ibragimovich</p> */}
         </div>
         
-    <section id='main'><Main/></section>
-    <section id='mavzular'><Mavzular/></section>
-    <section id='taqdimot'><Taqdimotlar/></section>
-    <section id='video'><Videodarslar/></section>
-    <section id='test'><Testlar/></section>
-    <section id='malumot'><Malumotnoma/></section>
-    <section id='adabiyot'><Adabiyotlar/></section>
         </>
     )
 }

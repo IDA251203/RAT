@@ -1,15 +1,13 @@
-import Image from "next/image";
-import styles from '../styles/Home.module.css'
-import Link from "next/link";
-import { Button } from "@mui/material";
-import Navbar from "./navbar";
 
-function Mavzular(){
+import styles from '../styles/Home.module.css'
+import Navbar from './navbar';
+
+function Taqdimotlar(){
     return(
        <>
-        <Navbar/>
-        <div className={styles.cont}>
-            <p className={styles.title}>Mavzular</p>
+       <Navbar/>
+       <div className={styles.cont}>
+            <p className={styles.title}>Taqdimot</p>
             <div className={styles.table}>
                 <li className={styles.box}>1-Mavzu:</li>
                 <li className={styles.box}>2-Mavzu:</li>
@@ -27,11 +25,8 @@ function Mavzular(){
                 <li className={styles.box}>14-Mavzu:</li>
                 <li className={styles.box}>15-Mavzu:</li>
             </div>
-            <Link href='/'>
-                <Button className={styles.btn}>Orqaga</Button>
-            </Link>
         </div>
        </>
     )
 }
-export default Mavzular;
+export default Taqdimotlar;

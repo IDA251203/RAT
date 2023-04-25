@@ -20,11 +20,24 @@
     left:720px;
 }
 .table{
-    width: 600px;
+    width: 900px;
     height: 530px;
     position: relative;
     left: 300px;
     top:-25px;
+}
+.btn{
+    width: 20%;
+    height: 45px;
+    background-color: rgb(73, 171, 146);
+    color: #fff;
+    border-radius: 15px;
+    font-size: 1.2em;
+    text-shadow: 0 0 4px #fff;
+    box-shadow: 0 0 10px gray;
+    position: relative;
+    top:130px;
+    left:40%;
 }
 .box{
     width: 100%;
