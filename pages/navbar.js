@@ -42,7 +42,7 @@ function Navbar(){
          <a to='video' onClick={() => scrollBy(2600, 0)}>
             <div className={styles.cont__content}><span><OndemandVideoIcon/></span>Video darslar</div>
          </a>
-         <a to='test' onClick={() => scrollBy(3580, 0)}>
+         <a href='/Tests101/test101.html'>
             <div className={styles.cont__content}><span><RuleIcon/></span>Testlar</div>
          </a>
          <a to='malumot' onClick={() => scrollBy(4600, 0)}>
